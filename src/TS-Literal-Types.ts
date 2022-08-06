@@ -3,18 +3,32 @@
 console.group('Literal types - užduotys');
 {
   // ↓↓↓↓ Tipus ir užduotims bendrus kintamuosius apraškite čia ↓↓↓↓
+  type Berlin = 'Berlin';
+  type Hamburg = 'Hamburg';
+  type Munich = 'Munich';
+  type Cologne = 'Cologne';
+  type Frankfurt = 'Frankfurt';
+  type GermaniesFiveBiggestCities = Berlin | Hamburg | Munich | Cologne | Frankfurt;
+
+  type GoldenRetriever = 'GoldenRetriever';
+  type FrenchBulldog = 'FrenchBulldog';
+  type LabradorRetriever = 'LabradorRetriever';
+  type GermanShepard = 'GermanShepard';
+  type Poodles = 'Poodles';
+  type FiveBreeds = GoldenRetriever | FrenchBulldog | LabradorRetriever | GermanShepard | Poodles;
+
+  type Bonnet = 'Bonnet';
+  type Bumper = 'Bumper';
+  type CowlScreen = 'Cowl screen';
+  type Decklid = 'Decklid';
+  type Fender = 'Fender';
+  type FiveCarParts = Bonnet | Bumper | CowlScreen | Decklid | Fender;
 
   // ↑↑↑↑ Tipus ir užduotims bendrus kintamuosius apraškite čia ↑↑↑↑
 
   console.group('1. Sukurkite konkrečius 5 dižiausių Vokietijos miestų tipus. Sukurkite tipą, kurio reikšmė būtų viena iš miestų.');
   {
     // sprendimą|sprendimo pavyzdžius spausdinkite čia
-    type Berlin = 'Berlin';
-    type Hamburg = 'Hamburg';
-    type Munich = 'Munich';
-    type Cologne = 'Cologne';
-    type Frankfurt = 'Frankfurt';
-    type GermaniesFiveBiggestCities = Berlin | Hamburg | Munich | Cologne | Frankfurt;
 
     type Contries = {
       city1: GermaniesFiveBiggestCities,
@@ -39,12 +53,6 @@ console.group('Literal types - užduotys');
   console.group('2. Sukurkite konkrečias 5 šunų veisles. Sukurkite tipą, kurio reikšmė būtų viena iš veislių.');
   {
     // sprendimą|sprendimo pavyzdžius spausdinkite čia
-    type GoldenRetriever = 'GoldenRetriever';
-    type FrenchBulldog = 'FrenchBulldog';
-    type LabradorRetriever = 'LabradorRetriever';
-    type GermanShepard = 'GermanShepard';
-    type Poodles = 'Poodles';
-    type FiveBreeds = GoldenRetriever | FrenchBulldog | LabradorRetriever | GermanShepard | Poodles;
 
     type Breeds = {
       breed1: FiveBreeds,
@@ -69,12 +77,6 @@ console.group('Literal types - užduotys');
   console.group('3. Sukurkite konkrečias 5 mašinos dalių tipus. Sukurkite tipą, kurio reikšmė būtų viena iš dalių.');
   {
     // sprendimą|sprendimo pavyzdžius spausdinkite čia
-    type Bonnet = 'Bonnet';
-    type Bumper = 'Bumper';
-    type CowlScreen = 'Cowl screen';
-    type Decklid = 'Decklid';
-    type Fender = 'Fender';
-    type FiveCarParts = Bonnet | Bumper | CowlScreen | Decklid | Fender;
 
     type Parts = {
       part1: FiveCarParts,

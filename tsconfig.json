@@ -21,5 +21,5 @@
     "removeComments": true, // ar pašalinti komentarus sukompiliuotuose failuose                    
     "skipLibCheck": true // ar praleisti tipų tikrinimą naudojant bibliotekas
   },
-  "include": ["./src/TS-Assertions.ts","./src/TS-Enums.ts","./src/TS-Literal-Types.ts"]
+  "include": ["./src/TS-Assertions.ts","./src/TS-Enums.ts","./src/TS-Literal-Types.ts", "./src/TS-Tuples.ts"]
 }
