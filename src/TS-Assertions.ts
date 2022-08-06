@@ -1,5 +1,6 @@
 /* eslint-disable no-lone-blocks */
 /* eslint-disable no-console */
+console.group('Assertions - užduotys');
 const button = document.querySelector('#button') as HTMLButtonElement;
 const textBox = document.querySelector('#textBox') as HTMLDivElement;
 const MotherBox = document.querySelector('#MotherBox') as HTMLDivElement;
@@ -38,4 +39,6 @@ console.group('3. Sukurkite <p> elementą kuriame spausdinsite skaičių - kiek 
     document.body.append(pHtmlElement);
   });
 }
+console.groupEnd();
+
 console.groupEnd();

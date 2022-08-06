@@ -1,4 +1,5 @@
 "use strict";
+console.group('Assertions - užduotys');
 const button = document.querySelector('#button');
 const textBox = document.querySelector('#textBox');
 const MotherBox = document.querySelector('#MotherBox');
@@ -29,5 +30,6 @@ console.group('3. Sukurkite <p> elementą kuriame spausdinsite skaičių - kiek 
         document.body.append(pHtmlElement);
     });
 }
+console.groupEnd();
 console.groupEnd();
 //# sourceMappingURL=TS-Assertions.js.map
