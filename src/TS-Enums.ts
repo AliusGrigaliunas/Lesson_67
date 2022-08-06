@@ -1,6 +1,6 @@
 /* eslint-disable no-lone-blocks */
 /* eslint-disable no-console */
-console.group('Literal types - užduotys');
+console.group('Enums - užduotys');
 
 console.group('1. Sukurkite 5 didžiausių Lietuvos miestų išvardinimą.');
 {

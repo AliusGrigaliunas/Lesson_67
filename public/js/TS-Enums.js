@@ -1,5 +1,5 @@
 "use strict";
-console.group('Literal types - užduotys');
+console.group('Enums - užduotys');
 console.group('1. Sukurkite 5 didžiausių Lietuvos miestų išvardinimą.');
 {
     let LietuvosTop5LargestCities;
